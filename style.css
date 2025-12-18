@@ -1,0 +1,124 @@
+/* Global Styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Arial', sans-serif;
+  background: linear-gradient(135deg, #a8c0ff, #3f2b96);
+  color: #333;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-size: cover;
+}
+
+.container {
+  width: 350px;
+  padding: 40px;
+  background: #e0e5ec;
+  border-radius: 20px;
+  box-shadow: 8px 8px 15px rgba(0, 0, 0, 0.1), -8px -8px 15px rgba(255, 255, 255, 0.7);
+  text-align: center;
+  transition: all 0.3s ease;
+}
+
+.container:hover {
+  box-shadow: 12px 12px 25px rgba(0, 0, 0, 0.2), -12px -12px 25px rgba(255, 255, 255, 0.8);
+}
+
+h1 {
+  font-size: 32px;
+  color: #333;
+  margin-bottom: 30px;
+}
+
+/* Form Styles */
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+.input-group {
+  margin-bottom: 20px;
+  text-align: left;
+}
+
+label {
+  font-size: 16px;
+  color: #333;
+  margin-bottom: 5px;
+}
+
+input {
+  padding: 15px;
+  font-size: 16px;
+  border: none;
+  outline: none;
+  border-radius: 10px;
+  margin-top: 5px;
+  background: #f3f6fc;
+  box-shadow: inset 5px 5px 10px rgba(0, 0, 0, 0.1), inset -5px -5px 10px rgba(255, 255, 255, 0.7);
+  transition: all 0.3s ease;
+}
+
+input:focus {
+  box-shadow: inset 5px 5px 10px rgba(0, 0, 0, 0.2), inset -5px -5px 10px rgba(255, 255, 255, 0.8);
+}
+
+button {
+  padding: 15px;
+  font-size: 16px;
+  background: #3f2b96;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  margin-top: 10px;
+  transition: all 0.3s ease;
+}
+
+button:hover {
+  background: #a8c0ff;
+  transform: translateY(-5px);
+}
+
+.bmi-info {
+  margin-top: 30px;
+  font-size: 14px;
+  color: #333;
+}
+
+.bmi-info h4 {
+  font-size: 22px;
+  color: #3f2b96;
+  margin-bottom: 10px;
+}
+
+.bmi-info ul {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+.bmi-info li {
+  margin: 8px 0;
+}
+
+.under {
+  color: #e38c08;
+}
+
+.normal {
+  color: #f5006a;
+}
+
+.over {
+  color: #0a7405;
+}
+
+.obese {
+  color: #672d06;
+}
